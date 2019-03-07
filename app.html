@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Carousel Template · Bootstrap</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="https:getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+
+    <style>
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="assets/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Nisfal Filsa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="app.html">MyApp <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="star.html">My Source With You</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="container">
+        <br>
+        <h2>Kalkulator</h2>
+        <form name="kalkulator" onsubmit="return false">
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-5">
+              <input type="text" name="kal" value="" class="form-control col-md-6 col-sm-6 col-xs-12" readonly>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="">
+                <a href="#" class="btn btn-danger button">CE</a>
+                <a href="#" class="btn btn-danger button">C</a>
+                <a href="#" class="btn btn-primary btn-tall button">=</a>
+              </div>
+    
+              <div class="">
+                <a href="#" class="btn btn-default button">7</a>
+                <a href="#" class="btn btn-default button">8</a>
+                <a href="#" class="btn btn-default button">9</a>
+                <a href="#" class="btn btn-default button">/</a>
+              </div>
+    
+              <div class="">
+                <a href="#" class="btn btn-default button">4</a>
+                <a href="#" class="btn btn-default button">5</a>
+                <a href="#" class="btn btn-default button">6</a>
+                <a href="#" class="btn btn-default button">*</a>
+              </div>
+    
+              <div class="">
+                <a href="#" class="btn btn-default button">1</a>
+                <a href="#" class="btn btn-default button">2</a>
+                <a href="#" class="btn btn-default button">3</a>
+                <a href="#" class="btn btn-default button">-</a>
+              </div>
+    
+              <div class="">
+                <a href="#" class="btn btn-default btn-wide button">0</a>
+                <a href="#" class="btn btn-default button">.</a>
+                <a href="#" class="btn btn-default button">+</a>
+              </div>
+    
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+            <hr class="featurette-divider">
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2019 Nisfal, Inc. &middot; </p>
+        </footer>
+    </main>
+    <script src="assets/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write(
+            '<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+</body>
+
+<!-- </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator dengan Javascript & Bootstrap</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https:getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link href="assets/carousel.css" rel="stylesheet">
+</head>
+
+<body class="height-full">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Nisfal Filsa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="app.html">MyApp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="star.html">My Source With You</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Kalkulator</h2>
+    <form name="kalkulator" onsubmit="return false">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-5">
+          <input type="text" name="kal" value="" class="form-control col-md-6 col-sm-6 col-xs-12" readonly>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="">
+            <a href="#" class="btn btn-danger button">CE</a>
+            <a href="#" class="btn btn-danger button">C</a>
+            <a href="#" class="btn btn-primary btn-tall button">=</a>
+          </div>
+
+          <div class="">
+            <a href="#" class="btn btn-default button">7</a>
+            <a href="#" class="btn btn-default button">8</a>
+            <a href="#" class="btn btn-default button">9</a>
+            <a href="#" class="btn btn-default button">/</a>
+          </div>
+
+          <div class="">
+            <a href="#" class="btn btn-default button">4</a>
+            <a href="#" class="btn btn-default button">5</a>
+            <a href="#" class="btn btn-default button">6</a>
+            <a href="#" class="btn btn-default button">*</a>
+          </div>
+
+          <div class="">
+            <a href="#" class="btn btn-default button">1</a>
+            <a href="#" class="btn btn-default button">2</a>
+            <a href="#" class="btn btn-default button">3</a>
+            <a href="#" class="btn btn-default button">-</a>
+          </div>
+
+          <div class="">
+            <a href="#" class="btn btn-default btn-wide button">0</a>
+            <a href="#" class="btn btn-default button">.</a>
+            <a href="#" class="btn btn-default button">+</a>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="assets/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write(
+            '<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+</body>
+
+</html> -->
